@@ -1,0 +1,17 @@
+{
+  "name": "wxcc-desktop-widgets",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Headless/visible custom widgets for the Webex Contact Center Agent Desktop, one bundle per widget.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "@wxcc-desktop/sdk": "^1.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
